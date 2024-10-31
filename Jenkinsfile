@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    dockerimagename = "skillpropil/spapp"
+    dockerimagename = "skillpropil/nginx_static_index"
     dockerImage = ""
   }
   agent any
