@@ -24,7 +24,7 @@ pipeline {
       steps{
         script {
           docker.withRegistry( 'https://index.docker.io/v1/', registryCredential ) {
-            dockerImage.push("1.3.0")
+            dockerImage.push("1.4.0")
           }
         }
       }
